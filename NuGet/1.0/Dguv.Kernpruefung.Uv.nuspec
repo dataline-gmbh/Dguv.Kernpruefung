@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Dguv.Kernpruefung.Uv-1.0</id>
+    <version>1.0.$version$</version>
+    <title>UV-Kernpruefung 1.0 der DGUV</title>
+    <authors>DSRV DRV DEÜV Kernpruefung DEUEV</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Die UV-Kernpruefung 1.0 der DGUV</description>
+    <dependencies>
+      <group targetFramework="net40">
+        <dependency id="IKVM" version="8.0.5449.1" />
+      </group>
+      <group targetFramework="native" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Dguv.Kernpruefung.Uv-1.0.dll" target="lib\net40\" />
+    <file src="..\_._" target="lib\native\" />
+    <file src="install.ps1" target="tools\native\" />
+    <file src="uninstall.ps1" target="tools\native\" />
+    <file src="..\..\README.md" />
+    <file src="..\..\LICENSE.md" />
+    <file src="..\..\LICENSE-APACHE-2.0.txt" />
+  </files>
+</package>
