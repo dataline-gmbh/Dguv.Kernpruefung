@@ -21,11 +21,11 @@
     <file src="uninstall.ps1" target="tools\native\" />
     <file src="..\..\README.md" />
     <file src="..\..\LICENSE.md" />
-    <file src="..\..\Kernpruefung\xerces-2_11_0\LICENSE" target="doc\xerces\" />
-    <file src="..\..\Kernpruefung\xerces-2_11_0\LICENSE.DOM-documentation.html" target="doc\xerces\" />
-    <file src="..\..\Kernpruefung\xerces-2_11_0\LICENSE.DOM-software.html" target="doc\xerces\" />
-    <file src="..\..\Kernpruefung\xerces-2_11_0\LICENSE.resolver.txt" target="doc\xerces\" />
-    <file src="..\..\Kernpruefung\xerces-2_11_0\LICENSE.serializer.txt" target="doc\xerces\" />
-    <file src="..\..\Kernpruefung\xerces-2_11_0\LICENSE-SAX.html" target="doc\xerces\" />
+    <file src="..\..\lib\xerces-2_11_0\LICENSE" />
+    <file src="..\..\lib\xerces-2_11_0\LICENSE.DOM-documentation.html" />
+    <file src="..\..\lib\xerces-2_11_0\LICENSE.DOM-software.html" />
+    <file src="..\..\lib\xerces-2_11_0\LICENSE.resolver.txt" />
+    <file src="..\..\lib\xerces-2_11_0\LICENSE.serializer.txt" />
+    <file src="..\..\lib\xerces-2_11_0\LICENSE-SAX.html" />
   </files>
 </package>
