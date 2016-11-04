@@ -4,7 +4,7 @@
     <id>Dguv.Kernpruefung.Uv-1.0</id>
     <version>1.0.$version$</version>
     <title>UV-Kernpruefung 1.0 der DGUV</title>
-    <authors>DSRV DRV DEÜV Kernpruefung DEUEV</authors>
+    <authors>DGUV UV Kernpruefung</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Die UV-Kernpruefung 1.0 der DGUV</description>
     <dependencies>
@@ -21,6 +21,11 @@
     <file src="uninstall.ps1" target="tools\native\" />
     <file src="..\..\README.md" />
     <file src="..\..\LICENSE.md" />
-    <file src="..\..\LICENSE-APACHE-2.0.txt" />
+    <file src="..\..\Kernpruefung\xerces-2_11_0\LICENSE" target="doc\xerces\" />
+    <file src="..\..\Kernpruefung\xerces-2_11_0\LICENSE.DOM-documentation.html" target="doc\xerces\" />
+    <file src="..\..\Kernpruefung\xerces-2_11_0\LICENSE.DOM-software.html" target="doc\xerces\" />
+    <file src="..\..\Kernpruefung\xerces-2_11_0\LICENSE.resolver.txt" target="doc\xerces\" />
+    <file src="..\..\Kernpruefung\xerces-2_11_0\LICENSE.serializer.txt" target="doc\xerces\" />
+    <file src="..\..\Kernpruefung\xerces-2_11_0\LICENSE-SAX.html" target="doc\xerces\" />
   </files>
 </package>
