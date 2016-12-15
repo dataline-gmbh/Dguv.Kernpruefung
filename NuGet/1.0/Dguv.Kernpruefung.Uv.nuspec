@@ -6,7 +6,8 @@
     <title>UV-Kernpruefung 1.0 der DGUV</title>
     <authors>DGUV UV Kernpruefung</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Die UV-Kernpruefung 1.0 der DGUV</description>
+    <description>Die UV-Kernpruefung 1.0 der DGUV (Stand 20161201)</description>
+	<releaseNotes>Bei der enthaltenen Mitgliedsnummerprüfung wird die Groß- und Kleinschreibung jetzt nicht mehr beachtet, analog dem separaten Mitgliedsnummernprüfmodul</releaseNotes>
     <dependencies>
       <group targetFramework="net40">
         <dependency id="IKVM" version="8.0.5449.1" />
@@ -17,8 +18,7 @@
   <files>
     <file src="Dguv.Kernpruefung.Uv-1.0.dll" target="lib\net40\" />
     <file src="..\_._" target="lib\native\" />
-    <file src="install.ps1" target="tools\native\" />
-    <file src="uninstall.ps1" target="tools\native\" />
+	<file src="Dguv.Kernpruefung.Uv.targets" target="build\native\" />
     <file src="..\..\README.md" />
     <file src="..\..\LICENSE.md" />
     <file src="..\..\lib\xerces-2_11_0\LICENSE" />
