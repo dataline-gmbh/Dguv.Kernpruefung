@@ -6,7 +6,7 @@
     <title>UV-Kernpruefung 1.0 der DGUV</title>
     <authors>DGUV UV Kernpruefung</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Die UV-Kernpruefung 1.0 der DGUV (Stand 20170302)</description>
+    <description>Die UV-Kernpruefung 1.0 der DGUV (Stand 20170615)</description>
 	<releaseNotes>Bei der enthaltenen Mitgliedsnummerprüfung wird die Groß- und Kleinschreibung jetzt nicht mehr beachtet, analog dem separaten Mitgliedsnummernprüfmodul</releaseNotes>
     <dependencies>
       <group targetFramework="net40">
